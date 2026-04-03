@@ -6,7 +6,7 @@ from torch.autograd import Variable
 from Dataloader import dataloader
 from VID_Trans_model import VID_Trans
 
-m
+
 def evaluate(distmat, q_pids, g_pids, q_camids, g_camids, max_rank=21):
     num_q, num_g = distmat.shape
     if num_g < max_rank:
